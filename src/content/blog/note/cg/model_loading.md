@@ -27,7 +27,7 @@ The Open Asset Importer Library，OpenAssimp/Assimp，是一个用于导入各�
 
 跟建模时的流程类似，它通常会将整个模型加载进一个场景(Scene)对象，它会包含导入的模型/场景中的所有数据。Assimp 会将场景载入为一系列的节点(Node)，每个节点包含了场景对象中所储存数据的索引，每个节点都可以有任意数量的子节点。Assimp 数据结构的（简化）模型如下：
 
-![图片](img/pic/cg/assimp_structure.webp)
+![图片](/img/pic/cg/assimp_structure.webp)
 
 
 - 和材质和网格(Mesh)一样，所有的场景/模型数据都包含在 Scene 对象中。Scene 对象也包含了场景根节点的引用。
